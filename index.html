@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tailwind Test</title>
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+	<style>
+		.font-family{
+			"HelveticaNeue-Regular","Helvetica Neue Regular","Helvetica Neue",Helvetica,Arial,sans-serif
+		}
+		body{
+			background: url('https://www.tesla.com//content/dam/tesla-site/home-page/images/main-hero-landscape_compressed.jpg') center center;
+			background-size: cover;
+		}
+		body *{
+			transition: all 0.4s;
+		}
+	</style>
+</head>
+<body class="bg-blue-100 h-screen">
+<nav class="flex justify-between items-center text-white px-5 py-3 text-sm">
+<div>
+	<img class="h-4" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTMiPjxwYXRoIGQ9Ik0wIDBjLjMgMS4xIDEuMyAyLjMgMi42IDIuNmg0LjFsLjIuMVYxM2gyLjVWMi43bC4yLS4xaDQuMWMxLjQtLjQgMi4zLTEuNSAyLjYtMi42SDB6bTc3LjggMTNjMS4zLS41IDItMS41IDIuMi0yLjZINjguN1YtLjFoLTIuNXYxM2gxMS42ek00Ny4zIDIuNmg5YzEuMy0uNCAyLjUtMS40IDIuNy0yLjZINDQuOHY3LjdoMTEuNnYyLjdoLTkuMWMtMS40LjQtMi42IDEuNC0zLjIgMi42SDU5VjUuMkg0Ny4zVjIuNnptMzguMSAyLjZWMTNIODhWNy44aDkuMVYxM2gyLjZWNS4yTTI1LjIgMi42aDkuN2MxLjMtLjMgMi40LTEuNSAyLjYtMi42aC0xNWMuNCAxLjIgMS40IDIuMyAyLjcgMi42bTAgNS4yaDkuN2MxLjMtLjMgMi40LTEuNSAyLjYtMi42aC0xNWMuNCAxLjEgMS40IDIuMyAyLjcgMi42bTAgNS4yaDkuN2MxLjMtLjMgMi40LTEuNSAyLjYtMi42aC0xNWMuNCAxLjIgMS40IDIuNCAyLjcgMi42TTg3LjcgMi42aDkuN2MxLjMtLjMgMi40LTEuNSAyLjYtMi42SDg1Yy4zIDEuMiAxLjMgMi40IDIuNyAyLjYiIGZpbGw9IiNGRkYiLz48L3N2Zz4=" />
+</div>
+<div class="text-md hidden md:block">
+	<a class="mx-2 text-white hover:text-gray-400" href="#">MODEL S</a>
+	<a class="mx-2 text-white hover:text-gray-400" href="#">MODEL 3</a>
+	<a class="mx-2 text-white hover:text-gray-400" href="#">MODEL X</a>
+	<a class="mx-2 text-white hover:text-gray-400" href="#">MODEL Y</a>
+	<a class="mx-2 text-white hover:text-gray-400" href="#">ROADSTER</a>
+	<a class="mx-2 text-white hover:text-gray-400" href="#">ENERGY</a>
+</div>
+<div class="text-md flex items-center">
+	<a class="mx-2 text-white hover:text-gray-400" href="#">SHOP</a>
+	<a class="mx-2 text-white hover:text-gray-400" href="#">SIGN IN</a>
+	<svg class="mx-2 h-4 w-4 cursor-pointer" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<g id="Page-1" stroke="white" stroke-width="1" fill="white" fill-rule="evenodd">
+			<g id="icon-shape">
+				<path d="M0,3 L20,3 L20,5 L0,5 L0,3 Z M0,9 L20,9 L20,11 L0,11 L0,9 Z M0,15 L20,15 L20,17 L0,17 L0,15 Z" id="Combined-Shape"></path>
+			</g>
+		</g>
+	</svg>
+</div>
+</nav>
+
+<div class="w-100 flex flex-col justify-center items-center my-8">
+	<p class="text-white text-5xl p-4 text-center">Model S</p>
+	<div class="flex flex-col sm:flex-row w-1/2 mb-4">
+		<button class="bg-white text-black rounded-full mx-2 my-2 flex-grow border-4 border-white py-2 w-100 sm:w-1/2 uppercase text-xs">Custom Order</button>
+		<button class="hover:text-black hover:bg-white text-white rounded-full mx-2 my-2 flex-grow border-4 border-white py-2 w-100 sm:w-1/2 uppercase text-xs">Existing Inventory</button>
+	</div>
+	<a href="#" class="underline text-white text-sm tracking-wider">Visit a store</a>
+</div>
+
+<footer class="bottom-0 left-0 right-0 fixed">
+	<p class="text-white text-sm leading-loose tracking-wider w-100 text-center">Free unlimited Supercharging on inventory cars.</p>
+	<div class="text-center flex items-center justify-center cursor-pointer">
+		<svg class="h-8 w-8" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<g id="Page-1" stroke="white" stroke-width="1" fill="white" fill-rule="evenodd">
+				<g id="icon-shape">
+					<polygon id="Combined-Shape" points="9.29289322 12.9497475 10 13.6568542 15.6568542 8 14.2426407 6.58578644 10 10.8284271 5.75735931 6.58578644 4.34314575 8"></polygon>							</g>
+			</g>
+		</svg>
+	</div>
+</footer>
+</body>
+</html>
