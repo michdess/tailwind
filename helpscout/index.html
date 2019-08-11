@@ -19,8 +19,8 @@
 	</style>
 </head>
 <body class="">
-	<nav class="fixed w-full top-0 right-0 bg-hero flex items-center justify-center py-6">
-		<div class="flex items-center max-w-8xl w-full">
+	<nav class="px-6 fixed w-full top-0 right-0 bg-hero flex items-center justify-center py-6">
+		<div class="flex justify-between items-center max-w-8xl w-full">
 			<div class="cursor-pointer">
 				<svg class="h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 842 168" role="img">
 				    <style>.st3{fill:#2a3b47}.st1{fill:#1292ee}</style>
@@ -28,7 +28,7 @@
 				    <path class="st1" d="M10.9 97.2l48.6-48.6c6.3-6.2 10.2-14.9 10.2-24.4 0-9.4-3.8-18-9.9-24.2L11.2 48.6C4.9 54.8 1 63.5 1 73c0 9.5 3.8 18 9.9 24.2zM128.6 68.8L80 117.4c-6.3 6.2-10.2 14.9-10.2 24.4 0 9.4 3.8 18 9.9 24.2l48.6-48.6c6.3-6.2 10.2-14.9 10.2-24.4 0-9.5-3.8-18-9.9-24.2zM128.3 48.7c6.3-6.2 10.2-14.9 10.2-24.4 0-9.4-3.8-18-9.9-24.2L11.2 117.4C4.9 123.7 1 132.3 1 141.9c0 9.4 3.8 18 9.9 24.2L128.3 48.7z"/>
 				</svg>
 			</div>
-			<div class="flex flex-grow">
+			<div class="hidden md:flex flex-grow">
 				<a href="#" class="flex items-center ml-8 text-sm text-gray-700 font-light hover:text-gray-900">Product
 						<svg class="ml-1 h-4 w-4 fill-current" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 						<g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
@@ -61,11 +61,11 @@
 			</div>
 		</div>
 	</nav>
-	<div class="flex pt-32 sm:pt-0 items-center justify-center bg-hero md:h-screen">
+	<div class="flex pt-32 px-6 sm:pt-0 items-center justify-center bg-hero md:h-screen">
 		<div class="flex flex-col md:flex-row items-center max-w-8xl">
 			<div class="w-full md:w-1/2 md:pr-32">
 				<h2 class="text-4xl md:text-5xl text-center md:text-left text-blue-900 leading-tight font-medium">There’s a better way to talk with your customers.</h2>
-				<h3 class="mt-10 text-xl text-gray-700 font-light tracking-wider leading-relaxed">Help Scout is designed with your customers in mind. Provide email and live chat with a personal touch, and deliver help content right where your customers need it, all in one place, all for one low price.</h3>
+				<h3 class="mt-6 md:mt-10 text-md md:text-xl text-center md:text-left text-gray-700 font-light tracking-wider leading-relaxed">Help Scout is designed with your customers in mind. Provide email and live chat with a personal touch, and deliver help content right where your customers need it, all in one place, all for one low price.</h3>
 				<div class="mt-10 flex flex-col sm:flex-row">
 					<button class="w-full sm:w-40 px-4 py-3 rounded font-semibold text-md bg-blue-500 text-white border-2 border-blue-500">Get started</button>
 					<button class="w-full mt-4 sm:mt-0 md:ml-4 md:w-40 px-4 py-3 rounded font-semibold text-md bg-white text-blue-500 border-2 border-gray-500">Watch a Demo</button>
@@ -78,14 +78,14 @@
 	</div>
 	<div class="mt-24 p-6">
 		<div class="w-full py-8">
-			<h3 class="w-1/3 m-auto text-center text-3xl text-blue-900">Help Scout empowers customer-centric businesses with tools that make every interaction more human and helpful.</h3>
+			<h3 class="w-full md:w-1/3 m-auto text-center text-2xl md:text-3xl text-blue-900">Help Scout empowers customer-centric businesses with tools that make every interaction more human and helpful.</h3>
 			<hr class="my-8 border-blue-900 w-1/12">
 		</div>
-		<div class="flex m-auto max-w-8xl items-center justify-center">
-			<div class="w-2/3">
+		<div class="flex flex-col md:flex-row m-auto max-w-8xl items-center justify-center">
+			<div class="w-full md:w-2/3">
 				<img src="../helpscout/img/1.png" />
 			</div>
-			<div class="w-1/3">
+			<div class="mt-6 md:mt-0 w-full md:w-1/3">
 				<p class="text-2xl text-gray-500 font-light">Messaging</p>
 				<p class="mt-4 text-3xl text-blue-900">Look and feel matters</p>
 				<p class="py-6 text-gray-600">Replace robo-emails and ticket numbers with emails that were clearly sent by a real person. Fast, friendly, and above all, customer-first.</p>
@@ -154,13 +154,13 @@
 	</div>
 </div>
 
-	<div class="mt-32 w-2/5 m-auto flex flex-col items-center bg-white p-10">
+	<div class="mt-32 w-full md:w-2/5 m-auto flex flex-col items-center bg-white p-10">
 		<h3 class="text-blue-900 font-semibold text-center text-3xl">Get started with Help Scout</h3>
 		<p class="mt-6 text-gray-600 text-lg text-center leading-normal font-light">A better experience for your customers, fewer headaches for your team.
 		<br>You'll be set up in minutes.</p>
-		<div class="mt-6 flex w-full px-8">
+		<div class="mt-6 flex flex-col md:flex-row w-full md:px-8">
 			<input class="flex flex-grow px-4 py-2 rounded text-gray-500 border border-gray-500" placeholder="Email Address">
-			<button class="ml-2 bg-blue-500 shadow-lg rounded text-white px-4 py-3">Get Started</button>
+			<button class="mt-2 md:mt-0 md:ml-2 bg-blue-500 shadow-lg rounded text-white px-4 py-3">Get Started</button>
 		</div>
 		<p class="mt-6 text-gray-500">See Help Scout in action.<a class="ml-2 text-blue-500" href="#">Get a Demo</a></p>
 	</div>
@@ -213,7 +213,7 @@
 					<a href="#" class="mt-2 text-sm font-light text-gray-600 hover:text-gray-300">Status<span class="ml-1 px-1 font-semibold text-gray-400 text-xs bg-gray-600 rounded">99.99%</span></a>
 				</div>
 			</div>
-			<div class="flex justify-between py-4 w-full border-t border-gray-600">
+			<div class="flex flex-col md:flex-row items-center justify-between py-4 w-full border-t border-gray-600">
 				<div class="flex text-gray-600">
 					<a class="text-gray-600" href="#">
 						<svg class="h-6 w-6 fill-current" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-285.9 385.7 26.5 22" xml:space="preserve" role="img"><path fill="#8d98a1" d="M-269.3,386c-2.4,0.9-3.9,3.1-3.7,5.6l0.1,0.9l-1-0.1c-3.5-0.4-6.5-2-9.1-4.5l-1.3-1.3l-0.3,0.9c-0.7,2.1-0.2,4.3,1.2,5.7 c0.8,0.8,0.6,0.9-0.7,0.4c-0.5-0.2-0.9-0.3-0.9-0.2c-0.1,0.1,0.3,1.9,0.7,2.6c0.5,1,1.5,1.9,2.6,2.5l0.9,0.4l-1.1,0 c-1.1,0-1.1,0-1,0.4c0.4,1.3,1.9,2.6,3.6,3.2l1.2,0.4l-1,0.6c-1.5,0.9-3.3,1.4-5.1,1.4c-0.9,0-1.6,0.1-1.6,0.2 c0,0.2,2.3,1.3,3.7,1.7c4.1,1.3,8.9,0.7,12.6-1.4c2.6-1.5,5.2-4.6,6.4-7.5c0.7-1.6,1.3-4.4,1.3-5.8c0-0.9,0.1-1,1.1-2.1 c0.6-0.6,1.2-1.3,1.3-1.5c0.2-0.4,0.2-0.4-0.8,0c-1.6,0.6-1.9,0.5-1.1-0.4c0.6-0.6,1.3-1.7,1.3-2.1c0-0.1-0.3,0-0.6,0.2 c-0.3,0.2-1.1,0.5-1.7,0.7l-1,0.3l-0.9-0.6c-0.5-0.3-1.2-0.7-1.6-0.9C-266.9,385.6-268.4,385.7-269.3,386z"></path></svg></a>
@@ -224,10 +224,11 @@
 						<svg class="ml-4 h-6 w-6 fill-current" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g fill="#8d98a1"><path d="M10.7358299,9.05316505 C10.74693,9.03496505 10.7625302,9.01306505 10.7778304,8.99176505 L10.7778304,9.05316505 L10.7358299,9.05316505 Z M16.9563347,16.7413593 L13.9355007,16.7413593 L13.9355007,11.9100805 C13.9355007,10.696181 13.4977552,9.86785022 12.4052981,9.86785022 C11.5695643,9.86785022 11.0734621,10.4266736 10.8556124,10.9662 C10.7748894,11.1588913 10.7548946,11.4283987 10.7548946,11.6975342 L10.7548946,16.7411734 L7.73457208,16.7411734 C7.73457208,16.7411734 7.77409657,8.5583491 7.73457208,7.71146523 L10.7553596,7.71146523 L10.7553596,8.99162555 C11.1563705,8.37649203 11.8729729,7.4990119 13.477156,7.4990119 C15.4654707,7.4990119 16.9563347,8.78884399 16.9563347,11.5636639 L16.9563347,16.7413593 Z M4.55280357,6.47798976 L4.53248332,6.47798976 C3.51912172,6.47798976 2.86222458,5.78497064 2.86222458,4.91734826 C2.86222458,4.03224231 3.53841897,3.35800873 4.57186832,3.35800873 C5.60541067,3.35800873 6.24115058,4.03205632 6.26123833,4.91734826 C6.26123833,5.78515663 5.60564317,6.47798976 4.55280357,6.47798976 Z M3.0415728,16.7413593 L6.06342984,16.7413593 L6.06342984,7.71160472 L3.0415728,7.71160472 L3.0415728,16.7413593 Z M18.5232253,0 L1.4777512,0 C0.661547082,0 0,0.641358883 0,1.43295561 L0,18.5664399 C0,19.3580366 0.661779579,20 1.4777512,20 L18.5232253,20 C19.3391969,20 20,19.3576181 20,18.5664399 L20,1.43295561 C20,0.641591377 19.3391969,0 18.5232253,0 Z"></path></g></g></svg>
 					</a>
 				</div>
-				<div class="flex text-gray-600">
-					<img src="../helpscout/img/footer.png"/>
-					<p class="ml-2 text-sm text-gray-400">Made by hand in over 60 cities around the world.</p>
-					<p class="ml-2 text-sm font-light">© 2019 Help Scout</p>
+				<div class="flex flex-col md:flex-row text-center text-gray-600">
+					<img class="hidden md:block" src="../helpscout/img/footer.png"/>
+					<p class="mt-4 md:mt-0 ml-2 text-sm text-gray-400">Made by hand in over 60 cities around the world.</p>
+					<p class="mt-4 md:mt-0 ml-2 text-sm font-light">© 2019 Help Scout</p>
+					<img class="mx-auto mt-4 md:hidden my-10 w-16" src="../helpscout/img/certified.png"/>
 				</div>
 			</div>
 		</div>
