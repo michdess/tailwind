@@ -9,9 +9,11 @@ The list so far:
 * Youtube - [demo](https://frosty-feynman-7686e6.netlify.com/youtube)
 * Bellroy - [demo](https://frosty-feynman-7686e6.netlify.com/bellroy)
 * Whatsapp - [demo](https://frosty-feynman-7686e6.netlify.com/whatsapp)
+* HelpScout - [demo](https://frosty-feynman-7686e6.netlify.com/helpscout)
 
 ## What these things look like
 ![Tesla Screenshot](screenshots/tesla.png)
 ![Whatsapp Screenshot](screenshots/whatsapp.png)
 ![YouTube Screenshot](screenshots/youtube.png)
 ![Bellroy Screenshot](screenshots/bellroy.png)
+![HelpScout Screenshot](screenshots/helpscout.png)
